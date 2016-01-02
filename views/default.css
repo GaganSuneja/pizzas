@@ -1,0 +1,18 @@
+
+.outer
+{
+	border:1px solid black;
+	width:180px;
+	height:80px; 
+}
+.inner
+{
+
+	display:inline-block;
+	float:right;
+	margin-top:16px;
+	margin-right:16px;
+	border:1px solid black;
+	width:100px;
+	height:50px;
+}

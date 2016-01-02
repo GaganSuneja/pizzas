@@ -1,0 +1,62 @@
+<?xml version="1.0"  ?>
+<categories>
+	<category name="Pizza">
+		<type tname="Tomato &amp; Cheese">
+			<metaname/>
+			<size value="sm"> 5.50 </size>
+			<size value="lg"> 9.50 </size>
+		</type>
+		<type tname="2 Way Combo">
+			<metaname/>
+			<size value="sm"> 7.95</size>
+			<size value="lg"> 8.50 </size>
+		</type>	
+		<type tname="3 Way Combo">
+			<metaname/>
+			<size value="sm"> 8.9</size>
+			<size value="lg"> 12.80 </size>
+		</type>
+		<toppings>
+			<topname name="extra cheese small">1.25</topname>
+			<topname name="extra cheese large">1.85</topname>
+		</toppings>
+	</category>
+	<category name="SpecialityPizzas">
+		<type tname="Three Aces Special">
+			<metaname>Slices Tomatoes,Olives,Spinach,fresh garlic,Mozerrella &amp; feta Cheese</metaname>
+			<size value="sm">9.80</size> 
+			<size value="lg">15.80</size>
+		</type>
+		<toppings/>
+	</category>
+	<category name="Pizza">
+		<type tname="Tomato &amp; Cheese">
+			<metaname/>
+			<size value="sm"> 5.50 </size>
+			<size value="lg"> 9.50 </size>
+		</type>
+		<type tname="2 Way Combo">
+			<metaname/>
+			<size value="sm"> 7.95</size>
+			<size value="lg"> 8.50 </size>
+		</type>	
+		<type tname="3 Way Combo">
+			<metaname/>
+			<size value="sm"> 8.9</size>
+			<size value="lg"> 12.80 </size>
+		</type>
+		<toppings>
+			<topname name="extra cheese small">1.25</topname>
+			<topname name="extra cheese large">1.85</topname>
+		</toppings>
+	</category>
+	<category name="Speciality Pizzas">
+		<type tname="Three Aces Special">
+			<metaname>Slices Tomatoes,Olives,Spinach,fresh garlic,Mozerrella &amp; feta Cheese</metaname>
+			<size value="sm">9.80</size> 
+			<size value="lg">15.80</size>
+		</type>
+		<toppings/>
+	</category>
+</categories>
+

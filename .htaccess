@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteBase /pizzas/
+
+RewriteRule \.(gif|jpg|png|css|js|inc\.php|php)$ - [L]
+
+RewriteRule ^(\w+)(|/)/?$ index.php
+
+RewriteRule ^(\w+)/(\w+) index.php?tname=$1&sub_type=$2 [NC,L]
