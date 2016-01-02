@@ -12,6 +12,8 @@ include_once "includes/functions.php";
 //}		
 
 
+echo "yo baby";
+
 if(isset($_GET['tname']))
 {
 	echo $type = checkPage($_GET['tname']);
