@@ -1,5 +1,5 @@
 <?php 
-include 'templates/config.php';
+include 'includes/config.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,4 +10,18 @@ include 'templates/config.php';
 </head>
 <body>    
 	<div class="bg">	
-	 <h1 class="head">The Pizza Bay</h1>
+		<h1 class="head">The Pizza Bay</h1>
+		<?php 
+		if(isset($_GET['tname']))
+		{
+            
+    		echo $_GLOBAL['final_bill'];
+    		echo '<fieldset style="width:100%;margin-left:400px;">';
+			echo '<div>Types</div>';
+            echo '<div>Sm</div>';
+            echo '<div>lg</div>';
+			echo '<legend>Your Order</legend>';
+			echo '<form action = "../includes/finalbill.php" method="post">';
+
+		}
+		?>

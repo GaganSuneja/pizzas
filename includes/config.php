@@ -1,1 +1,5 @@
-<?php ?>
+<?php 
+
+define('ROOT','http://localhost/pizzas');
+
+?>
