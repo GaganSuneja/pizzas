@@ -12,7 +12,7 @@ function renderXml($attribute,$attribute_2 = NULL )
 	{
     	$pathToXml = "/categories/category"."[@name='".$attribute_2."']/type";
     }
-	//echo $pathToXml;
+	echo $pathToXml;
 	foreach ($db = $xml->xpath($pathToXml) as $key)
 	{
 		

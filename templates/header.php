@@ -14,8 +14,7 @@ include 'includes/config.php';
 		<?php 
 		if(isset($_GET['tname']))
 		{
-            
-    		echo $_GLOBAL['final_bill'];
+    		//echo $final_bill;
     		echo '<fieldset style="width:100%;margin-left:400px;">';
 			echo '<div>Types</div>';
             echo '<div>Sm</div>';
