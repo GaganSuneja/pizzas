@@ -11,12 +11,9 @@ include_once "includes/functions.php";
   //$page = checkPage($_GET['page']);
 //}		
 
-
-echo "yo baby";
-
 if(isset($_GET['tname']))
 {
-	echo $type = checkPage($_GET['tname']);
+  $type = checkPage($_GET['tname']);
 }
 else
 {
@@ -25,7 +22,7 @@ else
 
 if(isset($_GET['sub_type']))
 {
-   echo  $sub_type = $_GET['sub_type'];
+   $sub_type = $_GET['sub_type'];
 }
 else
 {
@@ -33,12 +30,14 @@ else
 }
 //if(isset($_GET['price']))
 //{/
-  //add_bill($_GET['price']);
+ 	 //add_bill($_GET['price']);
 //}
 
+//include_once 'views/shoppingcart.php';
 
 render("header",$data=array("title"=>"PizzaBay"));
 
+render("shoppingcart");
 getHeader("category".$type,$sub_type);
 
 //getHeader("category/type/size/value",$value)
