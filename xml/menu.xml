@@ -1,62 +1,57 @@
-zzzzzzz<?xml version="1.0"  ?>
+<?xml version="1.0"  ?>
 <categories>
-	<category name="Pizza">
+	<category name="1">
+		<cname>Pizza</cname>
+		<cname>Salads</cname>
 		<type tname="Tomato &amp; Cheese">
 			<metaname/>
 			<size value="sm"> 5.50 </size>
 			<size value="lg"> 9.50 </size>
+			<topname name="extra cheese small">1.25</topname>
+			<topname name="extra cheese large">1.85</topname>
 		</type>
 		<type tname="2 Way Combo">
 			<metaname/>
 			<size value="sm"> 7.95</size>
 			<size value="lg"> 8.50 </size>
+			<topname name="extra cheese small">1.25</topname>
+			<topname name="extra cheese large">1.85</topname>
 		</type>	
 		<type tname="3 Way Combo">
 			<metaname/>
 			<size value="sm"> 8.9</size>
 			<size value="lg"> 12.80 </size>
-		</type>
-		<toppings>
 			<topname name="extra cheese small">1.25</topname>
 			<topname name="extra cheese large">1.85</topname>
-		</toppings>
+		</type>		
 	</category>
-	<category name="SpecialityPizzas">
+	<category name="2">
+		<cname>Specility Pizza or </cname>
+		<cname>Salads</cname>
 		<type tname="Three Aces Special">
 			<metaname>Slices Tomatoes,Olives,Spinach,fresh garlic,Mozerrella &amp; feta Cheese</metaname>
 			<size value="sm">9.80</size> 
 			<size value="lg">15.80</size>
+			<topname/>
 		</type>
-		<toppings/>
 	</category>
-	<category name="Pizza">
-		<type tname="Tomato &amp; Cheese">
+		<category name="3">
+		<cname>Special Dinners</cname>
+		<type tname="Chicken Wing Dinner">
 			<metaname/>
-			<size value="sm"> 5.50 </size>
-			<size value="lg"> 9.50 </size>
+			<size value="normal">7.25</size>
+			<topname/>
 		</type>
-		<type tname="2 Way Combo">
+		<type tname="Gyro Plate">
 			<metaname/>
-			<size value="sm"> 7.95</size>
-			<size value="lg"> 8.50 </size>
-		</type>	
-		<type tname="3 Way Combo">
+			<size value="normal">7.25</size>
+			<topname/>
+		</type>
+		<type tname="Chicken Finger Plate ">
 			<metaname/>
-			<size value="sm"> 8.9</size>
-			<size value="lg"> 12.80 </size>
+			<size value="normal">7.25</size>
+			<toppings/>	
 		</type>
-		<toppings>
-			<topname name="extra cheese small">1.25</topname>
-			<topname name="extra cheese large">1.85</topname>
-		</toppings>
-	</category>
-	<category name="Speciality Pizzas">
-		<type tname="Three Aces Special">
-			<metaname>Slices Tomatoes,Olives,Spinach,fresh garlic,Mozerrella &amp; feta Cheese</metaname>
-			<size value="sm">9.80</size> 
-			<size value="lg">15.80</size>
-		</type>
-		<toppings/>
 	</category>
 </categories>
 

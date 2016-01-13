@@ -2,7 +2,7 @@
 
 if(isset($_GET['tname']))
 {
-	echo '<input type="submit" name="submit" value="submit"/>';
+	echo '<input type="submit" name="submit" value="submit"/>	';
 }
 
 ?>

@@ -11,3 +11,16 @@ include 'templates/config.php';
 <body>    
 	<div class="bg">	
 	 <h1 class="head">The Pizza Bay</h1>
+	 <div>
+	 	
+	 </div>
+
+
+
+	 <?php
+	 if(isset($_GET['sub_type']))
+	 {
+	 	echo '<form action="../includes/finalbill.php" method="post">';
+
+	 }
+	  ?>
