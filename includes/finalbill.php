@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD']=='POST' && $_POST['submit']=='submit')
 	{
 		if($_POST['number'.$j]>0)
 		{
-			$_SESSION['your_bill'] = $_SESSION['your_bill'] + ($_POST['selected'.$j] * $_POST['number'.$j]) ;
+			(float)$_SESSION['your_bill'] = $_SESSION['your_bill'] + (float)($_POST['selected'.$j] * $_POST['number'.$j]) ;
 			echo "your bill".$_SESSION['your_bill'];
 		}
 

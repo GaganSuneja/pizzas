@@ -12,10 +12,6 @@ include 'templates/config.php';
 	<div class="bg">	
 	 <h1 class="head">The Pizza Bay</h1>
 	 <div>
-	 	
-	 </div>
-
-
 
 	 <?php
 	 if(isset($_GET['sub_type']))

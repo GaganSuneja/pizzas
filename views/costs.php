@@ -8,17 +8,22 @@ echo $e->metaname;
 while(isset($e->size[$i]))
 { 
 	# code...
+	echo "<br/>";
 	echo "Size:".$e->size[$i]['value'];	
 	echo "$".$e->size[$i];
-	echo '<input type="checkbox" value="'.$e->size[$i].'" name="selected'.$j.'">';	
+	echo '<input type="checkbox" value="'.(float)$e->size[$i].'" name="selected'.$j.'">';	
 	echo "selected".$j;
 	echo '<input type="number" min="0" max="5" name="number'.$j.'">';
 	echo "number".$j;
-	if(isset($e->topname[$i]))
+	echo "<br/>";
+	$k = 0;
+	while(isset($e->topname[$k]))
 	{
-		echo $e->topname[$i]['name'];
-	    echo $e->topname[$i];
-	    echo '<input type="checkbox" value="'.$e->topname[$i].'" name="toppings'.$j.'"/>';
+		echo $e->topname[$k]['name'];
+	    echo $e->topname[$k];
+	    echo "toppings:".$j;
+	    echo '<input type="radio" value="'.(float)$e->topname[$i].'" name="toppings'.$j.'"/>';
+	 $k++;
 	}
 	
 	

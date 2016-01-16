@@ -2,7 +2,6 @@
 <categories>
 	<category name="1">
 		<cname>Pizza</cname>
-		<cname>Salads</cname>
 		<type tname="Tomato &amp; Cheese">
 			<metaname/>
 			<size value="sm"> 5.50 </size>
@@ -26,31 +25,86 @@
 		</type>		
 	</category>
 	<category name="2">
-		<cname>Specility Pizza or </cname>
-		<cname>Salads</cname>
+		<cname>Specility Pizza</cname>
 		<type tname="Three Aces Special">
 			<metaname>Slices Tomatoes,Olives,Spinach,fresh garlic,Mozerrella &amp; feta Cheese</metaname>
 			<size value="sm">9.80</size> 
 			<size value="lg">15.80</size>
-			<topname/>
 		</type>
 	</category>
-		<category name="3">
+	<category name="3">
 		<cname>Special Dinners</cname>
 		<type tname="Chicken Wing Dinner">
 			<metaname/>
 			<size value="normal">7.25</size>
-			<topname/>
 		</type>
 		<type tname="Gyro Plate">
 			<metaname/>
 			<size value="normal">7.25</size>
-			<topname/>
 		</type>
 		<type tname="Chicken Finger Plate ">
 			<metaname/>
-			<size value="normal">7.25</size>
-			<toppings/>	
+			<size value="normal">7.25</size>	
+		</type>
+	</category>
+	<category name="4">
+		<cname>Side Orders</cname>
+		<type tname="Onion Rings">
+			<metaname/>
+			<size value="sm">2.60</size>
+			<size value="lg">2.95</size>
+			<topname/>	
+		</type>
+		<type tname="French Fries">
+			<metaname/>
+			<size value="sm">2.25</size>
+			<size value="lg">2.65</size>
+			<topname/>	
+		</type>
+		<type tname="Mozerrella Sticks">
+			<metaname>7 Pieces</metaname>
+			<size value="">4.50</size>
+			<topname/>	
+		</type>
+	</category>
+	<category name="5">
+		<cname>Salads</cname>
+		<type tname="Garden">
+			<metaname/>
+			<size value="sm">3.50</size>
+			<size value="lg">4.50</size>
+			<topname/>	
+		</type>
+		<type tname="Greek">
+			<metaname/>
+			<size value="sm">4.50</size>
+			<size value="lg">5.50</size>
+			<topname/>	
+		</type>
+		<type tname="Kabob Salad">
+			<metaname>With grilled chicken &amp; feta cheese</metaname>
+			<size value="sm">5.45</size>
+			<size value="lg">6.45</size>
+			<topname/>	
+		</type>
+	</category>
+	<category name="6">
+		<cname>Spagetti or </cname>
+		<cname>Ziti</cname>
+		<type tname="With Sauce">
+			<metaname/>
+			<size value="">5.40	</size>
+			<topname/>	
+		</type>
+		<type tname="With Sausage">
+			<metaname/>
+			<size value="">6.45</size>
+			<topname/>	
+		</type>
+		<type tname="With Meat Ball">
+			<metaname/>
+			<size value="">6.45</size>
+			<topname/>	
 		</type>
 	</category>
 </categories>

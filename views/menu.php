@@ -5,15 +5,16 @@
 	<div class="inner">
 
 		<span>   
-				<a href="<?php echo "type/".$e['name']; ?>"> 
+				<a href="<?php echo "type/".	$e['name']; ?>"> 
 
 				<?php 
 			{	
 				if(!isset($i))
 					$i = 0;
 				while(isset($e->cname[$i]))
-				 {
-					 echo $e->cname[$i];
+				 {				
+		
+					 echo htmlspecialchars($e->cname[$i]);
 				 	 $i++;
 				 }
 			}
