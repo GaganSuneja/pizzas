@@ -11,11 +11,11 @@ while(isset($e->size[$i]))
 	echo "<br/>";
 	echo "Size:".$e->size[$i]['value'];	
 	echo "$".$e->size[$i];
-	echo '<input type="checkbox" value="'.(float)$e->size[$i].'" name="selected'.$j.'">';	
+	echo '<input type="checkbox" value="'.(float)$e->size[$i].'" name="selected'.$j.'" required>';	
 	echo "selected".$j;
-	echo '<input type="number" min="0" max="5" name="number'.$j.'">';
+	echo '<input type="number" min="0" max="5" name="number'.$j.'"  required>';
 	echo "number".$j;
-	echo "<br/>";
+	echo "<br/	>";
 	$k = 0;
 	while(isset($e->topname[$k]))
 	{

@@ -31,7 +31,10 @@ function renderXml($attribute,$attribute_2 = NULL)
 		
 		foreach($dom = $xml->xpath($pathToXml1."/cname") as $key0 )
 		{
-			echo $key0;
+			echo $key0; 
+			echo "position:".strrpos($key0, 'o')-1;
+			$key0  = substr($key0,0,(strrpos($key0, 'o')-1));
+			echo "name:".$key0;
 			
 			foreach ($db = $xml->xpath($pathToXml) as $key)
 			{

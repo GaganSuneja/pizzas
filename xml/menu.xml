@@ -1,7 +1,14 @@
 <?xml version="1.0"  ?>
+<!-- Always add a single space at end of each cname.
+ex:
+Correct:
+<cname>Pizza </cname>
+Incorrect:
+<cname>Pizza</cname>
+-->
 <categories>
 	<category name="1">
-		<cname>Pizza</cname>
+		<cname>Pizza </cname>
 		<type tname="Tomato &amp; Cheese">
 			<metaname/>
 			<size value="sm"> 5.50 </size>
@@ -25,7 +32,7 @@
 		</type>		
 	</category>
 	<category name="2">
-		<cname>Specility Pizza</cname>
+		<cname>Specility Pizza </cname>
 		<type tname="Three Aces Special">
 			<metaname>Slices Tomatoes,Olives,Spinach,fresh garlic,Mozerrella &amp; feta Cheese</metaname>
 			<size value="sm">9.80</size> 
@@ -33,7 +40,7 @@
 		</type>
 	</category>
 	<category name="3">
-		<cname>Special Dinners</cname>
+		<cname>Special Dinners </cname>
 		<type tname="Chicken Wing Dinner">
 			<metaname/>
 			<size value="normal">7.25</size>
@@ -48,7 +55,7 @@
 		</type>
 	</category>
 	<category name="4">
-		<cname>Side Orders</cname>
+		<cname>Side Orders </cname>
 		<type tname="Onion Rings">
 			<metaname/>
 			<size value="sm">2.60</size>
@@ -68,7 +75,7 @@
 		</type>
 	</category>
 	<category name="5">
-		<cname>Salads</cname>
+		<cname>Salads </cname>
 		<type tname="Garden">
 			<metaname/>
 			<size value="sm">3.50</size>
@@ -90,7 +97,7 @@
 	</category>
 	<category name="6">
 		<cname>Spagetti or </cname>
-		<cname>Ziti</cname>
+		<cname>Ziti </cname>
 		<type tname="With Sauce">
 			<metaname/>
 			<size value="">5.40	</size>
@@ -109,3 +116,4 @@
 	</category>
 </categories>
 
+	

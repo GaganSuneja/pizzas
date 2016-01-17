@@ -42,12 +42,10 @@ body
 	background: url(../pizza.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
-	min-height:800px;
 	width:100%;
+	height:700px;
 	display: inline-block;
-	background-attachment: fixed;
-	background-position-y: -30%;	
-	    /*-webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+	/*-webkit-filter: blur(5px); /* Chrome, Safari, Opera */
 	/*filter: blur(5px);*/
 }
 .blur
@@ -63,10 +61,10 @@ body
 .head
 {
 	font-family:"Times New Roman";
-	font-size  :40px;
+	font-size  :100px;
 	text-align: center;
 	top:0px;
-	z-index:1;		
+	z-index:1;	
 }
 .shopping_cart
 {
