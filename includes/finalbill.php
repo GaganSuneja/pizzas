@@ -32,5 +32,8 @@ if($_SERVER['REQUEST_METHOD']=='POST' && $_POST['submit']=='submit')
 
 echo  "<br/>".$_SESSION['your_bill'];
 
+
+header('Location: ../index.php');
+exit();
 }	
 ?>
