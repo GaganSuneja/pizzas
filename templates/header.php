@@ -16,7 +16,7 @@ include 'templates/config.php';
 	    <h1>The Pizza Bay</h1>
 	</div>	 
 <div class="bg">
-	 <?php
+	 <?php 
 	 if(isset($_GET['sub_type']))
 	 {
 	 	echo '<form action="../includes/finalbill.php" method="post">';

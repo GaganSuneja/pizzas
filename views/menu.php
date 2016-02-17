@@ -5,7 +5,7 @@
 	<div class="inner">
 
 		<span>   
-				<a href="<?php echo "type/".	$e['name']; ?>"> 
+				<a href="<?php echo "type/".	$e['name']; ?>" target="blank" "> 
 
 				<?php 
 			{	

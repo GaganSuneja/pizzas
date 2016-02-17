@@ -29,14 +29,6 @@
 	width:100%;
 	height:50px;
 }	
-/*
-body
-{
-	background: url(../pizza.jpg);
-	background-size:cover;
-    background-repeat: no-repeat;	
-}
-*/
 .bg
 {
 	background: url(../pizza.jpg);
@@ -46,9 +38,7 @@ body
 	width:100%;
 	display: inline-block;
 	background-attachment: fixed;
-	background-position-y: -30%;	
-	    /*-webkit-filter: blur(5px); /* Chrome, Safari, Opera */
-	/*filter: blur(5px);*/
+	background-position-y: -30%;
 }
 .blur
 {	
@@ -67,6 +57,7 @@ body
 	text-align: center;
 	top:0px;
 	z-index:1;		
+	color:rgba(255,0,0,0.42);
 }
 .shopping_cart
 {

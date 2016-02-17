@@ -10,12 +10,8 @@ function renderXml($attribute,$attribute_2 = NULL)
 	if(isset($attribute_2))
 	{
 		$pathToXml = "/categories/category"."[@name='".$attribute_2."']/type";
-
-    	//$pathToXml1 = "/categories/category"."[@name='".$attribute_2."']/toppings";	
-	   //echo $pathToXml;	
 		
 		$pathToXml1 = "/categories/category"."[@name='".$attribute_2."']";;
-		//print_r($pathToXml1);
 
 		if(!isset($k))
 		{
@@ -25,9 +21,6 @@ function renderXml($attribute,$attribute_2 = NULL)
 			
 			$k = 0;
 			
-			//print_r($dom);
-
-			//echo "<br/>dim object".$dom[0]['cname'];
 		
 		foreach($dom = $xml->xpath($pathToXml1."/cname") as $key0 )
 		{
@@ -63,31 +56,8 @@ function renderXml($attribute,$attribute_2 = NULL)
 				require("views/menu.php");			
 			}
 	}	
-	//echo '<input type="hidden"  name = "number" value="'.$j.'">';
-
-/*
-	foreach ($db1 = $xml->xpath($pathToXml1) as $key)
-	{
-		
-	    if(!isset($attribute_2))
-		{
-		  require("views/menu.php");	
-		}
-		else
-		{
-		  require("views/costs.php");	
-		}
 
 
-
-	    //$e = $key;		
-		
-		//echo $e->topname[0];
-		//echo $e->topname[]['name'];
-		//echo $e->topname[1];
-		//echo $e->topname[1]['name'];
-	}
-*/
 }
 
 function render($template,$data = array())
@@ -115,11 +85,6 @@ function getHeader($xmlAttribute,$value=NULL)
 
 		case "category/type"       :renderXml($xmlAttribute,$value);
 		break;									
-
-    	//case "category/type/size"  :renderXml($xmlAttribute);
-                                 //   break;
-    	//case "category/type/size"   :renderXml($xmlAttribute);
-    								//break;
 	}
 
 }
@@ -129,13 +94,4 @@ function checkPage($page)
 	return "/".$page;	
 
 }
-
-//function add_bill($money)
-//{
-//include_once "bill.php";
-
-//$final_money = $final_money + $money; 
-
-//}
-
 ?>

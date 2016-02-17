@@ -1,7 +1,7 @@
 <?php 
 
 session_start();
-echo '<div>';
+echo '<div style="position:fixed;">';
 
 if(isset($_SESSION['your_bill']) && $_SESSION['your_bill']>0)
 
