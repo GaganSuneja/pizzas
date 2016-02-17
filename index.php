@@ -2,6 +2,9 @@
 
 ini_set('display_errors', true);
 
+
+echo "yo bitch";
+
 error_reporting(E_ALL);
 
 include_once "includes/functions.php";
